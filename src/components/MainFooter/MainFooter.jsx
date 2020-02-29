@@ -7,6 +7,7 @@ function MainFooter() {
             <footer className='mainfooter'>
                 <span>2019 &copy; 170 </span>
                 <span>
+                <li><a href='/#home'>home</a></li>
                     <li><a href='/about'>about</a></li>
                     <li><a href='/blog'>blog</a></li>
                     <li><a href='/contact'>contact</a></li>

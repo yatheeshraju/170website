@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './CustomButton.scss';
-
-
-function CustomButton(props) {
-    return (
-        <button className='custombutton'>
-            {props.name}
-        </button>
-    )
+export class CustomButton extends Component {
+    render() {
+        return (
+            <button className='custombutton' onClick={this.props.onclick}>
+            {this.props.name}
+            </button>
+        )
+    }
 }
 
 export default CustomButton

@@ -1,10 +1,10 @@
 .mainfooter{
-    padding: 10vh;
+    padding: 10vh 20vw 5vh 20vw ;
     min-height: 200px;
     background-color: rgba($color: #000000, $alpha: .7);
     color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
     li{
         list-style: none;
@@ -15,5 +15,12 @@
                 color: rgba($color: #FFFFFF, $alpha: .7);
             }
         }
+    }
+}
+
+@media (max-width:900px){
+    .mainfooter{
+        padding: 5vh;
+        justify-content: space-between;
     }
 }

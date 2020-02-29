@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:30%;
+    margin-top: 5vh;
+    box-shadow: 0 5px 25px 0 rgba($color: #000000, $alpha: .2);
+    img{
+        height: 380px;
+        width: 100%;
+    }
+    p{
+        color: rgba($color: #000000, $alpha: .7);
+        padding: 1vw;
+    }
+
+    transition: transform .2s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+@media(max-width:900px){
+    .card{
+        width: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

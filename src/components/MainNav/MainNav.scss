@@ -15,6 +15,7 @@
         padding: 2vh;
         &:first-child{
             font-size: 24px;
+            font-weight: bold;
             padding: 2vh 4vw 2vh 10vw;
             flex-grow: 1;
         }
@@ -32,11 +33,9 @@
     .menu{
         flex-direction: column;
         align-items: flex-end;
+        justify-content: space-around;
         li{
-            display: none;
-            &:first-child{
-                display: block;
-            }
+            
         }
         
         }

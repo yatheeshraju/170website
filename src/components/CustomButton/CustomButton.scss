@@ -1,7 +1,12 @@
 .custombutton{
     background-color: white;
     border: 1px solid #333;
-    padding: 1vh 2vw 1vh 2vw;
+    padding: 2vh 2vw 2vh 2vw;
     font-size: 18px;
     font-family: 'Roboto';
+    &:hover{
+        color: white;
+        background-color: #333;
+        border: 1px solid white;
+    }
 }
