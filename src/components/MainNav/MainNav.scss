@@ -1,0 +1,44 @@
+
+.menu{
+    min-height: 8vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0 0 30px rgba(0,0,0,.3);
+    font-family: 'Roboto';
+    position: fixed;
+    background-color: white;
+    li{
+        list-style: none;
+        padding: 2vh;
+        &:first-child{
+            font-size: 24px;
+            padding: 2vh 4vw 2vh 10vw;
+            flex-grow: 1;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            &:hover{
+                color: rgb(102, 102, 102);
+            }
+        }
+    }
+}
+
+@media (max-width:600px) {
+    .menu{
+        flex-direction: column;
+        align-items: flex-end;
+        li{
+            display: none;
+            &:first-child{
+                display: block;
+            }
+        }
+        
+        }
+
+}
