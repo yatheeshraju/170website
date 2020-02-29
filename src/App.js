@@ -5,12 +5,13 @@ import Home from './components/Home/Home';
 import MainFooter from './components/MainFooter/MainFooter';
 import MainNav from './components/MainNav/MainNav';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
     <div className="App">
        <MainNav/>
-       <BrowserRouter>
+       <BrowserRouter id='content'>
        <Route exact path='/'>
        <Home/>
        </Route>
@@ -18,7 +19,7 @@ function App() {
        <About/>
        </Route>
        <Route  path='/contact'>
-       
+       <Contact/>
        </Route>
        </BrowserRouter>
        

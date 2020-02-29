@@ -1,5 +1,5 @@
 .landingbox{
-    padding: 20vh 10vw 0 10vw;
+    padding: 18vh 5vw 0 5vw;
     display: flex;
     min-height: 600px;
     div{
@@ -24,8 +24,7 @@
 @media (max-width:900px){
     .landingbox{
         flex-direction: column;
-        padding: 0;
-        padding-top: 20vh;
+        padding-top: 10vh;
         div{
             img{
                 width: 100%;

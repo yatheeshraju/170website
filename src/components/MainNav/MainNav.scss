@@ -35,7 +35,10 @@
         align-items: flex-end;
         justify-content: space-around;
         li{
-            
+            display: none;
+            &:first-child{
+                display: block;
+            }
         }
         
         }
